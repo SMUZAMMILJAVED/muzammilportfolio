@@ -4,7 +4,6 @@ import Logo from './Logo'
 import Nav from './Nav'
 import ThemeToggler from './ThemeToggler'
 import MobileNav from './MobileNav'
-import { Flag } from 'lucide-react'
 
 function Header() {
     const [header, setHeader] = useState(false);
