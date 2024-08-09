@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import {
-  RiYoutubeFill,
+  RiFacebookFill,
+  RiWhatsappFill,
   RiInstagramFill,
   RiTwitterFill,
   RiGithubFill,
@@ -13,37 +14,37 @@ const SocialIcons = () => {
     <div className="flex gap-6 pr-4 ">
       <Link
         href={"/"}
-        className="text-[#08d9d6] text-2xl hover:-translate-y-1 transition-all duration-500 "
+        className="text-[blue] text-2xl hover:scale-150 transition-all duration-500 "
       >
-        <RiYoutubeFill />
+        <RiFacebookFill />
       </Link>
       <Link
         href={"/"}
-        className="text-[#f08a5d] text-2xl hover:-translate-y-1 transition-all duration-500 "
+        className="text-[#ff8f4e] text-2xl hover:scale-150 transition-all duration-500 "
       >
         <RiInstagramFill />
       </Link>
       <Link
         href={"/"}
-        className="text-[#ff2e63] text-2xl hover:-translate-y-1 transition-all duration-500 "
+        className="text-[#6060b3] text-2xl hover:scale-150 transition-all duration-500 "
       >
         <RiTwitterFill />
       </Link>
       <Link
         href={"/"}
-        className="text-[#eaeaea] text-2xl hover:-translate-y-1 transition-all duration-500 "
+        className="text-[#6180e6] text-2xl hover:scale-150 transition-all duration-500 "
       >
         <RiLinkedinFill />
       </Link>
       <Link
         href={"/"}
-        className="text-[#f9ed69] text-2xl hover:-translate-y-1 transition-all duration-500 "
+        className="text-[green] text-2xl hover:scale-150 transition-all duration-500 "
       >
-        <RiDribbbleFill />
+        <RiWhatsappFill />
       </Link>
       <Link
         href={"/"}
-        className="text-[#5272f2] text-2xl hover:-translate-y-1 transition-all duration-500 "
+        className="text-[black] text-2xl hover:scale-150 transition-all duration-500 "
       >
         <RiGithubFill />
       </Link>

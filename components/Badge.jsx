@@ -31,9 +31,9 @@ const Badge = ({
       )}
       {reviewCount && <div>
           <div className="flex gap-x-4 ">
-            <Image src={"/user.png"} alt="" height={41} width={41} className="rounded-full" />
+            <Image src={"/mybg.png"} alt="" height={41} width={41} className="rounded-full" />
             <div className="flex flex-col ">
-              <span className="bold-15 text-black">S Muzammil Javed</span>
+              <span className="bold-15 text-black">Muzammil</span>
               <span className="flexCenter text-xs text-primary dark:text-black">
                 <FaStar />
                 <FaStar />
@@ -54,14 +54,14 @@ const Badge = ({
                 <span className="bg-[#eaeaea] h-8 w-8 flexCenter rounded-full">SR</span>
                 <div className="flex flex-col">
                     <span className="text-sm font-bold leading-none ">Saqib Raheem</span>
-                    <p className="text-xs">lorem ipsum ...</p>
+                    <p className="text-xs">Innovative projects Development</p>
                 </div>
             </div>
             <div className="flexCenter gap-x-2 text-black ">
                 <span className="bg-[#f9f29f] h-8 w-8 flexCenter rounded-full">RK</span>
                 <div className="flex flex-col">
                     <span className="text-sm font-bold leading-none ">Rashid Khan</span>
-                    <p className="text-xs">lorem ipsum ...</p>
+                    <p className="text-xs">user friendly applications</p>
                 </div>
             </div>
           </div>

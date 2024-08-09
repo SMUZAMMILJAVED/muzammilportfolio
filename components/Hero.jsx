@@ -5,8 +5,9 @@ import { Button } from "./ui/button";
 import SocialIcons from "./SocialIcons";
 import Image from "next/image";
 import Badge from "./badge";
-import { FaFigma, FaReact, FaUser, FaUsers } from "react-icons/fa";
-import {SiNextdotjs} from 'react-icons/si'
+import {FaNode, FaReact,FaUsers } from "react-icons/fa";
+import {SiNextdotjs, SiMongodb} from 'react-icons/si'
+// import { SiMongodb } from 'react-icons/si';
 
 const Hero = () => {
   return (
@@ -46,27 +47,31 @@ const Hero = () => {
           </div>
           <div className="hidden xl:flex">
             <Badge
-              containerStyles={"absolute top-[60%] left-0"}
-              icon={<FaFigma />}
+              containerStyles={"absolute top-[50%] -left-5"}
+              icon={<FaNode />}
+            />
+             <Badge
+              containerStyles={"absolute -bottom-[10%] left-10"}
+              icon={<SiMongodb />}
             />
             <Badge
-              containerStyles={"absolute right-[40%] -top-5"}
+              containerStyles={"absolute right-[40%] -top-0"}
               icon={<FaReact />}
             />
             <Badge
-              containerStyles={"absolute bottom-[10%] right-[27%]"}
+              containerStyles={"absolute -bottom-[10%] right-[30%]"}
               icon={<SiNextdotjs/>}
             />
             <Badge
               containerStyles={"absolute top-[10%] !h-[55px] -left-12"}
               icon={<FaUsers />}
-              badgeText={'Project Completed'}
-              endCountNum={8}
-              endCountText={"k"}
+              badgeText={'Projects Completed'}
+              endCountNum={15}
+              // endCountText={"k"}
             />
             <Badge
               containerStyles={"absolute top-[22%] right-0"}
-              reviewCount={666}
+              reviewCount={100}
             />
           </div>
         </div>
